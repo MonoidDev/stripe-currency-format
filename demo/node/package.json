@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "postinstall": "ln -sf ../../../../dist/cjs/cli.cjs node_modules/.bin/your-cli-name",
+    "ts": "esno"
+  },
+  "dependencies": {
+    "stripe-currency-format": "link:../../"
+  },
+  "devDependencies": {
+    "esno": "^0.14.1"
+  }
+}
